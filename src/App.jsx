@@ -1,4 +1,6 @@
-import { Card } from "./components/Card/card"
+import { Header } from "./components/Header/header"
+import { Card } from "./components/Main/card"
+import { Footer } from "./components/Footer/footer"
 import Data from "./components/dataArray"
 import './App.css'
 
@@ -12,17 +14,18 @@ export function App() {
         img = {item.img}
         tittel ={item.tittel}
         price = {item.price}
+        url = {item.url}
       />
     )
   })
 
   return (
     <>
-      <header>Header</header>
+      <Header />
       <main className="card-container">
         {cards}
       </main>
-      <footer></footer>
+      <Footer />
     </>
   )
 }

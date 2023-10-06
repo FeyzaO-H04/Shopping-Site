@@ -1,23 +1,23 @@
 export default[ 
 { 
-  id:"2",
+  id:"1",
   img:"/gray-sweater.jpg",
-  url:"",
+  url:"http://",
   tittel:"Gray Sweater",
   price:"50$",
 },
 { 
-  id:"3",
+  id:"2",
   img:"/two-color-sweater.jpg",
-  url:"",
+  url:"http://",
   tittel:"Two Color Sweater",
-  price:"50$",
+  price:"45$",
 },
 { 
-  id:"4",
+  id:"3",
   img:"/brown-short-sweater.jpg",
-  url:"",
+  url:"http://",
   tittel:"Brown Short Sweater",
-  price:"50$",
+  price:"47$",
 }
 ]
