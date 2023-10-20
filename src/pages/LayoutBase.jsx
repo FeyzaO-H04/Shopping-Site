@@ -2,7 +2,7 @@ import { Header } from "../components/Header/header"
 import { Footer } from "../components/Footer/footer"
 
 
-export function BaseLayout({ cards }) {
+export function LayoutBase({ cards }) {
   return (
     <>
       <Header />

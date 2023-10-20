@@ -1,5 +1,5 @@
 import { Card } from "./components/Main/card"
-import { BaseLayout } from "./layout/BaseLayout"
+import { LayoutBase } from "./pages/LayoutBase"
 import { Man } from "./pages/Man/man"
 import { Woman } from "./pages/Woman/woman"
 import Data from "./data/dataArray"
@@ -28,7 +28,7 @@ export function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<BaseLayout cards={cards} />}/>
+        <Route path='/' element={<LayoutBase cards={cards} />}/>
         <Route path='/Man' element={<Man />}/>
         <Route path='/Woman' element={<Woman />}/>
         <Route path='*' element={<h1 className="not-found">404 Not Found</h1>}/>
