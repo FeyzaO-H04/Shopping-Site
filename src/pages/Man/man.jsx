@@ -1,5 +1,6 @@
 import "./man.css"
 
+
 export function Man() {
   return (
     <div className="menClothes">

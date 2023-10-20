@@ -1,15 +1,18 @@
 import { Header } from "../components/Header/header"
 import { Footer } from "../components/Footer/footer"
+import { Outlet } from "react-router-dom";
 
 
-export function LayoutBase({ cards }) {
+
+export function LayoutBase() {
   return (
     <>
       <Header />
-      <main className="card-container">
-        {cards}
-      </main>
+      <div>
+          <Outlet />
+      </div>
       <Footer />
+     
     </>
   );
 }
