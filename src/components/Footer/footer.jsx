@@ -17,9 +17,9 @@ export function Footer(){
       </ul>
       <ul className='footer-links'>
         <li>CORPORATE INFO</li>
-        <li><a href="">Career at YARGICI</a></li>
-        <li><a href="">About YARGICI Group</a></li>
-        <li><a href="">Sustainability YARGICI Group</a></li>
+        <li><a href="">Career at LAKOS</a></li>
+        <li><a href="">About LAKOS Group</a></li>
+        <li><a href="">Sustainability LAKOS Group</a></li>
         <li><a href="">Press</a></li>
         <li><a href="">Investor Relations</a></li>
         <li><a href="">Home</a></li>

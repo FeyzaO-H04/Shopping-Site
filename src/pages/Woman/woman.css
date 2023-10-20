@@ -1,0 +1,7 @@
+.womenClothes{
+  background-color:rgb(211, 143, 185);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}

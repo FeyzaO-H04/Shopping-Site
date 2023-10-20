@@ -4,6 +4,10 @@ export function Header(){
   return(
     <div className="header">
       <div className="nav-bar"> 
+        <ul className="link-container">
+            <li><a href="http://" target="_blank" rel="noopener noreferrer">DAME</a></li>
+            <li><a href="http://" target="_blank" rel="noopener noreferrer">HERRE</a></li>
+        </ul>
         <a href="http://" target="_blank" rel="noopener noreferrer">
           <h1 >LAKOS</h1>
         </a>

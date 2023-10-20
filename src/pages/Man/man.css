@@ -1,0 +1,7 @@
+.menClothes{
+  background-color:rgb(143, 153, 211);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}

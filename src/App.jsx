@@ -1,8 +1,14 @@
-import { Header } from "./components/Header/header"
 import { Card } from "./components/Main/card"
-import { Footer } from "./components/Footer/footer"
-import Data from "./components/dataArray"
+import { BaseLayout } from "./layout/BaseLayout"
+import { Man } from "./pages/Man/man"
+import { Woman } from "./pages/Woman/woman"
+import Data from "./data/dataArray"
 import './App.css'
+import{
+  BrowserRouter,
+  Routes,
+  Route,
+} from 'react-router-dom'
 
 
 export function App() {
@@ -20,13 +26,14 @@ export function App() {
   })
 
   return (
-    <>
-      <Header />
-      <main className="card-container">
-        {cards}
-      </main>
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<BaseLayout cards={cards} />}/>
+        <Route path='/Man' element={<Man />}/>
+        <Route path='/Woman' element={<Woman />}/>
+        <Route path='*' element={<h1 className="not-found">404 Not Found</h1>}/>
+      </Routes>
+     </BrowserRouter>
   )
 }
 
