@@ -5,13 +5,9 @@
 }
 
 .nav-bar{
-  
- 
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-
 }
 
 .nav-bar a{
@@ -19,8 +15,9 @@
   color: black;
 }
 
-.nav-bar h1{
+.logo{
   font-family: 'Black Ops One', cursive;
+  font-size: 35px;
 }
 
 .link-container{

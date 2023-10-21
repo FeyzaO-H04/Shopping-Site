@@ -31,12 +31,12 @@ export function App() {
       <Routes>
         <Route path='/' element={<LayoutBase />} >
           <Route index element={<LandingPage cards={cards} />} />
-          <Route path='/Man' element={<Man />} />
-          <Route path='/Woman' element={<Woman />} />
+          <Route path='/man' element={<Man />} />
+          <Route path='/woman' element={<Woman />} />
           <Route path='*' element={<h1 className="not-found">404 Not Found</h1>} />
         </Route>
       </Routes>
-     </BrowserRouter>
+    </BrowserRouter>
   )
 }
 

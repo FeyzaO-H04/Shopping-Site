@@ -10,13 +10,10 @@ export function Header(){
     <div className="header">
       <div className="nav-bar"> 
         <ul className="link-container">
-         
-            <li><a href="http://" target="_blank" rel="noopener noreferrer">DAME</a></li>
-            <li><a href="http://" target="_blank" rel="noopener noreferrer">HERRE</a></li>
+          <li><Link to="/woman">WOMAN</Link></li>
+          <li><Link to="/man">MAN</Link></li>
         </ul>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          <h1 >LAKOS</h1>
-        </a>
+        <Link to="/" className="logo">LAKOS</Link>
         <ul className="link-container">
           <li><a href="http://" target="_blank" rel="noopener noreferrer">SEARCH</a></li>
           <li><a href="http://" target="_blank" rel="noopener noreferrer">SIGN IN</a></li>
