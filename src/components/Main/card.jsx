@@ -1,4 +1,3 @@
-import { useState } from "react"
 import { Count } from "../Counter/counter"
 import "./card.css"
 

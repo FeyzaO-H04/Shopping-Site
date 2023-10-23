@@ -4,6 +4,9 @@ import { LandingPage } from "./pages/LandingPage"
 import { Man } from "./pages/Man/man"
 import { Woman } from "./pages/Woman/woman"
 import Data from "./data/dataArray"
+/*
+import { useState } from "react"*/
+
 import './App.css'
 import{
   BrowserRouter,
@@ -13,6 +16,7 @@ import{
 
 
 export function App() {
+
 
   const cards = Data.map(item =>{
     return(
